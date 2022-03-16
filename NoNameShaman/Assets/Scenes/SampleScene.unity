@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c350119550c01e469e1061625493efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fire: {fileID: 7734129761557782250, guid: b6f8120d448198e409802b0f00d4ecee, type: 3}
+  Fire: {fileID: 209594321241924146, guid: b6f8120d448198e409802b0f00d4ecee, type: 3}
   fireCreativeTimmer: 6
   Timmer: 14
   AudioS: {fileID: 477963674}
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c350119550c01e469e1061625493efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fire: {fileID: 6578999765474925004, guid: 94e7fa53a5430ed49b13c0c15ab58718, type: 3}
+  Fire: {fileID: 5357823809944033600, guid: 94e7fa53a5430ed49b13c0c15ab58718, type: 3}
   fireCreativeTimmer: 3
   Timmer: 7
   AudioS: {fileID: 1472447613}
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c350119550c01e469e1061625493efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fire: {fileID: 4584986739258828699, guid: caab7163ea22f7d4888c49ddec3fdb34, type: 3}
+  Fire: {fileID: 5555277840708418905, guid: caab7163ea22f7d4888c49ddec3fdb34, type: 3}
   fireCreativeTimmer: 12
   Timmer: 28
   AudioS: {fileID: 1742342805}
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c350119550c01e469e1061625493efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fire: {fileID: 6401246403834259181, guid: 537c1d49f29572e44adf40c5d9fcdd8d, type: 3}
+  Fire: {fileID: 7535533364322536500, guid: 537c1d49f29572e44adf40c5d9fcdd8d, type: 3}
   fireCreativeTimmer: 9
   Timmer: 21
   AudioS: {fileID: 1821855559}

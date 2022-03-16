@@ -20,7 +20,7 @@ public class Move : MonoBehaviour
 
     private void Start()
     {
-
+        
         Time.timeScale = 1;
        _Rigidbody2D = GetComponent<Rigidbody2D>();
     }
