@@ -2,11 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
+    public GameObject Next;
     public GameObject GameOverMenu;
     public GameObject Character;
+
+    public SceneManager MyScene;
+    public SceneManager NextScene;
 
     private Rigidbody2D _Rigidbody2D;
     public float jumpForce;
@@ -52,13 +57,21 @@ public class Move : MonoBehaviour
         }
     }
     // Fire çarpma
+    
     private void OnCollisionEnter2D(Collision2D collision)
-    {         
+    {           
         if (collision.gameObject.tag == "Fire")
         {
+            
             AudioDeath.Play();
             Time.timeScale = 0;
             GameOverMenu.SetActive(true);
+            if (coin >= 10)
+            {
+               Time.timeScale = 0;
+               Next.SetActive(true);
+               GameOverMenu.SetActive(false);
+            }       
         }
     }
  
