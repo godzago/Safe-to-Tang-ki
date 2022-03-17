@@ -10,9 +10,6 @@ public class Move : MonoBehaviour
     public GameObject GameOverMenu;
     public GameObject Character;
 
-    public SceneManager MyScene;
-    public SceneManager NextScene;
-
     private Rigidbody2D _Rigidbody2D;
     public float jumpForce;
     public float MovmentSpeed;
@@ -24,8 +21,7 @@ public class Move : MonoBehaviour
     public AudioSource AudioDeath;
 
     private void Start()
-    {
-        
+    {    
         Time.timeScale = 1;
        _Rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -66,12 +62,12 @@ public class Move : MonoBehaviour
             AudioDeath.Play();
             Time.timeScale = 0;
             GameOverMenu.SetActive(true);
-            if (coin >= 10)
+            if (coin >= 13)
             {
                Time.timeScale = 0;
                Next.SetActive(true);
                GameOverMenu.SetActive(false);
-            }       
+            }
         }
     }
  
