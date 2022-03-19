@@ -16,6 +16,8 @@ public class Move : MonoBehaviour
 
     public float coin;
     public Text CoinText;
+    public GameObject Bs;
+    public Text BsText;
 
     public AudioSource AudioS;
     public AudioSource AudioDeath;
@@ -61,16 +63,18 @@ public class Move : MonoBehaviour
             
             AudioDeath.Play();
             Time.timeScale = 0;
-            GameOverMenu.SetActive(true);
+            GameOverMenu.SetActive(true);       
             if (coin >= 13)
             {
                Time.timeScale = 0;
                Next.SetActive(true);
                GameOverMenu.SetActive(false);
+
+               BsText.text = coin.ToString();
+               Bs.SetActive(true);
             }
         }
     }
- 
 }
 
 
