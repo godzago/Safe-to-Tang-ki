@@ -9,6 +9,7 @@ public class Move : MonoBehaviour
     public GameObject Next;
     public GameObject GameOverMenu;
     public GameObject Character;
+    public GameObject bar;
 
     private Rigidbody2D _Rigidbody2D;
     public float jumpForce;
@@ -63,10 +64,12 @@ public class Move : MonoBehaviour
             
             AudioDeath.Play();
             Time.timeScale = 0;
-            GameOverMenu.SetActive(true);       
+            GameOverMenu.SetActive(true);
+            bar.SetActive(false);
             if (coin >= 13)
             {
                Time.timeScale = 0;
+               bar.SetActive(false);
                Next.SetActive(true);
                GameOverMenu.SetActive(false);
 
