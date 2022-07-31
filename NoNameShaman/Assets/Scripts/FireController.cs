@@ -6,15 +6,6 @@ public class FireController : MonoBehaviour
 {
     public GameObject dirt;
     public GameObject Fire;
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-      
-    }
-    
     
     private void OnCollisionEnter2D(Collision2D collision)
     {

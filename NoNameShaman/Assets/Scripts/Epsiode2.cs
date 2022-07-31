@@ -7,7 +7,6 @@ public class Epsiode2 : MonoBehaviour
 {
     public void Episode3()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(3);
     }
 }

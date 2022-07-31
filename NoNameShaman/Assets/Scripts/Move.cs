@@ -28,7 +28,7 @@ public class Move : MonoBehaviour
         Time.timeScale = 1;
        _Rigidbody2D = GetComponent<Rigidbody2D>();
     }
-    private void Update()
+    private void FixedUpdate()
     {
         // A D Jump Kodlarý
         var movment = Input.GetAxis("Horizontal");

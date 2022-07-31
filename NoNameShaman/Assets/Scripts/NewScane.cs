@@ -7,7 +7,6 @@ public class NewScane : MonoBehaviour
 {
     public void Episode2()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(2);
     }
 }
